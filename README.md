@@ -17,7 +17,7 @@ Before you start, make sure you have [Symfony UX configured in your project](htt
 The recommended way to install the extension is by
 using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project
 root, just run:
-<pre>composer require dskzpt/webpack-encore-typo3-bridge</pre>
+<pre>composer require svenpetersen/stimulus-viewhelpers</pre>
 
 ## Compatibility
 @todo
