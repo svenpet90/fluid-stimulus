@@ -1,13 +1,15 @@
 <?php
 
-namespace DSKZPT\WebpackEncoreTYPO3Bridge\ViewHelpers;
+declare(strict_types=1);
 
-use DSKZPT\WebpackEncoreTYPO3Bridge\Dto\StimulusControllersDto;
-use DSKZPT\WebpackEncoreTYPO3Bridge\Dto\StimulusActionsDto;
-use DSKZPT\WebpackEncoreTYPO3Bridge\Dto\StimulusTargetsDto;
+namespace SvenPetersen\FluidStimulus\ViewHelpers;
+
+use SvenPetersen\FluidStimulus\Dto\StimulusControllersDto;
+use SvenPetersen\FluidStimulus\Dto\StimulusActionsDto;
+use SvenPetersen\FluidStimulus\Dto\StimulusTargetsDto;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 
-class StimulusFluidViewHelper extends AbstractViewHelper
+class AbstractStimulusViewHelper extends AbstractViewHelper
 {
     /**
      * @param string $controllerName the Stimulus controller name
