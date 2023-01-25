@@ -1,8 +1,8 @@
-TYPO3 Extension "webpack-encore-typo3-bridge"
+TYPO3 Extension "fluid-stimulus"
 =================================
 
 ## What does it do?
-This Extensions integrates the symfony/webpack-encore-bundle into TYPO3 and Fluid.
+This Extensions integrates Stimulus.js ViewHelpers into TYPO3 and Fluid.
 
 **Summary of features**
 
@@ -17,7 +17,8 @@ Before you start, make sure you have [Symfony UX configured in your project](htt
 The recommended way to install the extension is by
 using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project
 root, just run:
-<pre>composer require svenpetersen/stimulus-viewhelpers</pre>
+<pre>composer require svenpetersen/fluid-stimulus</pre>
+
 
 ## Compatibility
 @todo

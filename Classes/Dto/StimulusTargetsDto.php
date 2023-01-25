@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DSKZPT\WebpackEncoreTYPO3Bridge\Dto;
+namespace SvenPetersen\FluidStimulus\Dto;
 
 final class StimulusTargetsDto extends AbstractStimulusDto
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DSKZPT\WebpackEncoreTYPO3Bridge\Dto;
+namespace SvenPetersen\FluidStimulus\Dto;
 
 class StimulusControllersDto extends AbstractStimulusDto
 {
@@ -13,6 +13,7 @@ class StimulusControllersDto extends AbstractStimulusDto
     public function addController(string $controllerName, array $controllerValues = [], array $controllerClasses = []): void
     {
         $controllerName = $this->getFormattedControllerName($controllerName);
+
         $this->controllers[] = $controllerName;
 
         foreach ($controllerValues as $key => $value) {

@@ -1,25 +1,21 @@
 {
-	"name": "dskzpt/webpack-encore-typo3-bridge",
+	"name": "svenpetersen/fluid-stimulus",
 	"type": "typo3-cms-extension",
-	"description": "Symfony Webpack Encore Bundle bridge for TYPO3",
-	"homepage": "https://www.dauskonzept.de",
+	"description": "Stimulus Viewhelpers for TYPO3",
+	"homepage": "https://github.com/svenpet90",
 	"keywords": [
 		"TYPO3",
 		"extension",
-		"youtube",
-		"news"
+		"stimulus-js",
+		"viewhelpers"
 	],
 	"license": [
 		"GPL-2.0-or-later"
 	],
 	"authors": [
 		{
-			"name": "Dauskonzept GmbH",
-			"email": "info@dauskonzept.de"
-		},
-		{
 			"name": "Sven Petersen",
-			"email": "sp@dauskonzept.de"
+			"email": "sven_harders@gmx.de"
 		}
 	],
 	"require": {
@@ -35,12 +31,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"DSKZPT\\WebpackEncoreTYPO3Bridge\\": "Classes/"
+			"SvenPetersen\\FluidStimulus\\": "Classes/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"DSKZPT\\WebpackEncoreTYPO3Bridge\\Tests\\": "Tests/"
+			"SvenPetersen\\FluidStimulus\\Tests\\": "Tests/"
 		}
 	},
 	"config": {
@@ -60,7 +56,7 @@
 	"extra": {
 		"typo3/cms": {
 			"app-dir": ".Build",
-			"extension-key": "webpack_encore_typo3_bridge",
+			"extension-key": "fluid_stimulus",
 			"web-dir": ".Build/public"
 		}
 	},
