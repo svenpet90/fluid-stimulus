@@ -19,6 +19,7 @@ using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project
 root, just run:
 <pre>composer require svenpetersen/fluid-stimulus</pre>
 
+
 ## Compatibility
 @todo
 
