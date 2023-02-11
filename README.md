@@ -1,3 +1,9 @@
+[![Latest Stable Version](http://poser.pugx.org/svenpetersen/fluid-stimulus/v)](https://packagist.org/packages/svenpetersen/fluid-stimulus)
+[![Total Downloads](http://poser.pugx.org/svenpetersen/fluid-stimulus/downloads)](https://packagist.org/packages/svenpetersen/fluid-stimulus)
+[![Latest Unstable Version](http://poser.pugx.org/svenpetersen/fluid-stimulus/v/unstable)](https://packagist.org/packages/svenpetersen/fluid-stimulus)
+[![License](http://poser.pugx.org/svenpetersen/fluid-stimulus/license)](https://packagist.org/packages/svenpetersen/fluid-stimulus)
+[![PHP Version Require](http://poser.pugx.org/svenpetersen/fluid-stimulus/require/php)](https://packagist.org/packages/svenpetersen/fluid-stimulus)
+
 TYPO3 Extension "fluid-stimulus"
 =================================
 
